@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    height: 32px;
+    gap: 10px;
+    margin: 40px 135px;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #676A71;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    &.selected-page {
+        color: #272A33;
+    }
+}
+
+.navigation-icon {
+    width: 32px;
+    height: 32px;
+}
+

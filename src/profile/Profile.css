@@ -1,0 +1,169 @@
+.profile-body {
+    padding: 0 135px 0 135px;
+
+    .profile-title {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 40px;
+    }
+
+    .profile-name {
+        display: flex;
+        height: 64px;
+        gap: 10px;
+        margin-bottom: 20px;
+
+        .circle {
+            background: #C4C4C4;
+            border-radius: 50%;
+            width: 64px;
+        }
+
+        .name, .surname {
+            align-self: center;
+            font-family: 'Inter';
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        .active-user, .user {
+            display: flex;
+            align-items: center;
+
+            .active-user-icon {
+                width: 89px;
+                height: 27px;
+            }
+
+            user-icon {
+                width: 118px;
+                height: 27px;
+            }
+        }
+    }
+
+    .profile-personalData {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        margin-bottom: 20px;
+
+        .profile-personalData-title {
+            font-family: 'Inter';
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .required:after {
+            content:" *";
+            color: #A8AAAE;
+        }
+    }
+
+    .profile-contacts, .profile-password {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        margin-bottom: 20px;
+
+        .contacts-header, .password-header {
+            display: flex;
+
+            .contacts-title, .password-title {
+                flex-grow: 1;
+                font-family: 'Inter';
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            .contacts-edit, .password-edit {
+                border: none;
+                background-color: #FFFFFF;
+                cursor: pointer;
+                color: #13A3B9;
+                font-family: 'Inter';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    }
+
+    .profile-password {
+        .eyeSlash {
+            position: relative;
+
+            .eyeSlash-icon  {
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+            }
+
+            .currentPassword, .newPassword {
+                top: 36px;
+                left: 435px;
+            }
+
+            .confirmedNewPassword {
+                top: 36px;
+                left: 435px;
+            }
+        }
+    }
+
+    .line {
+        background-color: #EDEDF4;
+        border: none;
+        height: 1px;
+        margin-bottom: 20px;
+    }
+
+    .columns {
+        display: flex;
+        gap: 20px;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            width: 470px;
+            height: 78px;
+            margin-bottom: 20px;
+
+            .profile-input {
+                height: 56px;
+                background-color: #F6F6F9;
+                border: none;
+                font-family: 'Inter';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 17px 18px;
+            }
+
+            .disabled {
+                color: #D4D7DB;
+            }
+        }
+    }
+
+    .save-button {
+        width: 270px;
+        height: 56px;
+        border: none;
+        background-color: #13A3B9;
+        color: #FFFFFF;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+}
+

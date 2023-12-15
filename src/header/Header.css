@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+
+    .header-icon {
+        width: 100%;
+    }
+}

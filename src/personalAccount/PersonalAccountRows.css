@@ -1,0 +1,66 @@
+.table {
+    margin-bottom: 40px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    border-radius: 5px 5px 0 0;
+    border-width: 1px 1px 0 1px;
+    border-color: #EDEDF4;
+    border-style: solid;
+}
+
+.row-tile {
+    flex-grow: 1;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #272A33;
+    margin-left: 5px;
+}
+
+.book-icon, .server-icon, .bookmark-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #13A3B9;
+    background-color: #FFFFFF;
+
+    &.zero {
+        color: black;
+    }
+}
+
+.book-icon {
+    width: 109px;
+}
+
+.server-icon, .bookmark-icon {
+    width: 114px;
+}
+
+.book, .server, .bookmark, .rightArrow {
+    width: 24px;
+    height: 24px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 347px;
+}

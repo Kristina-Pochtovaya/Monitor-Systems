@@ -1,0 +1,35 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.pagination-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 488px;
+    border: 1px solid #EDEDF4;
+    border-radius: 1px;
+}
+
+.pagination-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #676A71;
+
+    &.active {
+        background-color: #13A3B9;
+        color: #FFFFFF;
+        border-color: #13A3B9;
+    }
+}

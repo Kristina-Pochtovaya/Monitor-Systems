@@ -1,0 +1,84 @@
+.actions-menu {
+    display: flex;
+    gap: 20px;
+    height: 34px;
+}
+
+.actions-menu-left{
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+}
+.actions-menu-right {
+    display: flex;
+    gap: 20px;
+}
+
+.button-view, .button-info {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #6E7686;
+    border: 1px solid #6E7686;
+    gap: 5px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    .view-icon {
+        width: 20px;
+        height: 16px;
+        margin-right: 5px;
+    }
+
+    .info-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+}
+
+.add-button {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #13A3B9;;
+    color: #FFFFFF;
+    border: 1px solid #13A3B9;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    .add-icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 5px;
+    }
+}
+
+.grid-icon {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.line-spacing {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.line-spacing-icon {
+    width: 26px;
+    height: 16px;
+    cursor: pointer;
+}
